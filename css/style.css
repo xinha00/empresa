@@ -524,6 +524,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 50%;
   transition: 0.5s;
   border: 1px solid #03C4EB;
+  width: 58px;
+  text-align: center;
 }
 
 #services .service-icon i {
