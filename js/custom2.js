@@ -4,9 +4,7 @@
     // VARS
 
     var $window = $(window);
-    var windowSize = $window.width();
     var windowHeight = getViewPortHeight();
-    var menuStyle = $('nav').attr('id');
     var portfolioGrid = $('#portfolio-grid-container');
 
     /*----------------------------------------------------*/
@@ -107,8 +105,7 @@
      *********************************/
     $('.cbp-l-loadMore-button-link').on('click.cbp', function (e) {
         e.preventDefault();
-        var clicks, me = $(this),
-                oMsg;
+        var clicks, me = $(this), oMsg;
 
         if (me.hasClass('cbp-l-loadMore-button-stop')) {
             return;
@@ -153,7 +150,6 @@
 
                     });
 
-
         }).fail(function () {
             // error
         });
@@ -161,14 +157,12 @@
     });
 
     function getViewPortHeight() {
-
         //detech ios chrome
         if (navigator.userAgent.match('CriOS')) {
             return window.innerHeight;
         }
 
         return $window.height();
-
     }
 
     $.fn.parallax = function (xpos, speedFactor, outerHeight) {
