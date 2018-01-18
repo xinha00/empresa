@@ -55,9 +55,11 @@
                 <div class="wow fadeIn">
                     <div class="hero-logo">
                         <img class="" src="img/logo/logo.png" alt="Imperial">
+                        <!--<h1>Simplificando processos, desenvolvendo soluções</h1>-->
                     </div>
 
-                    <h2>We create <span class="rotating">beautiful graphics, functional websites, working mobile apps</span></h2>
+                    <!--<h1>Welcome to Code digital</h1>-->
+                    <h2>Nós criamos <span class="rotating"> soluções digitais, websites funcionais, estruturas integradas, projetos especiais</span></h2>
                     <div class="actions">
                         <a href="#about" class="btn-get-started">Sobre Nós</a>
                         <a href="#services" class="btn-services">Nossos Serviços</a>
@@ -66,6 +68,9 @@
             </div>
         </section>
 
+        <!--==========================
+        Header Section
+        ============================-->
         <header id="header">
             <div class="container">
 
@@ -89,6 +94,9 @@
         </header>
         <!-- #header -->
 
+        <!--==========================
+        About Section
+        ============================-->
         <section id="about">
             <div class="container wow fadeInUp">
                 <div class="row">
@@ -117,6 +125,9 @@
             </div>
         </section>
 
+        <!--==========================
+        Services Section
+        ============================-->
         <section id="services">
             <div class="container wow fadeInUp">
                 <div class="row">
@@ -130,37 +141,46 @@
                     <div class="col-md-4 service-item">
                         <div class="service-icon"><i class="fa fa-desktop"></i></div>
                         <h4 class="service-title">Sites</h4>
+                        <p class="service-description">&nbsp;</p>
                     </div>
                     <div class="col-md-4 service-item">
                         <div class="service-icon"><i class="fa fa-paint-brush"></i></div>
                         <h4 class="service-title">Design</h4>
+                        <p class="service-description">&nbsp;</p>
                     </div>
                     <div class="col-md-4 service-item">
                         <div class="service-icon"><i class="fa fa-code"></i></div>
                         <h4 class="service-title">Sistemas</h4>
+                        <p class="service-description">&nbsp;</p>
                     </div>
                     <div class="col-md-4 service-item">
                         <div class="service-icon"><i class="fa fa-shopping-bag"></i></div>
                         <h4 class="service-title">E-commerce</h4>
+                        <p class="service-description">&nbsp;</p>
                     </div>
                     <div class="col-md-4 service-item">
                         <div class="service-icon"><i class="fa fa-mobile"></i></div>
                         <h4 class="service-title">Aplicativos</h4>
+                        <p class="service-description">&nbsp;</p>
                     </div>
                     <div class="col-md-4 service-item">
                         <div class="service-icon"><i class="fa fa-google"></i></div>
                         <h4 class="service-title">SEO</h4>
+                        <p class="service-description">&nbsp;</p>
                     </div>
                 </div>
             </div>
         </section>
 
+        <!--==========================
+        Subscrbe Section
+        ============================-->
         <section id="subscribe">
             <div class="container wow fadeInUp">
                 <div class="row">
                     <div class="col-md-8">
                         <h3 class="subscribe-title">Inscreva-se para novidades</h3>
-                        <p class="subscribe-text">Join our 1000+ subscribers and get access to the latest tools, freebies, product announcements and much more!</p>
+                        <!--<p class="subscribe-text">Join our 1000+ subscribers and get access to the latest tools, freebies, product announcements and much more!</p>-->
                     </div>
                     <div class="col-md-4 subscribe-btn-container">
                         <a class="subscribe-btn" href="#">Inscreva-se Aqui</a>
@@ -168,6 +188,10 @@
                 </div>
             </div>
         </section>
+
+        <!--==========================
+        Porfolio Section
+        ============================-->
 
         <section id="portfolio" class="clearfix">
 
@@ -196,10 +220,113 @@
                         </div>
                         <!--/ Project 1--> 
                     </div>
+
+                    <!--Load more-->
+                    <!-- <div class="cbp-l-loadMore-button"> 
+                         <a class="cbp-l-loadMore-button-link btn btn-dark" href="#"> <span class="cbp-l-loadMore-button-defaultText">VER MAIS</span> 
+                             <span class="cbp-l-loadMore-button-loadingText">LOADING...</span> 
+                             <span class="cbp-l-loadMore-button-noMoreLoading">NO MORE WORKS</span> 
+                         </a> 
+                     </div>-->
+                    <!--/ Load more--> 
                 </div>
             </div>
+
         </section>
 
+        <!--==========================
+        Testimonials Section
+        ============================-->
+        <!--<section id="testimonials">
+          <div class="container wow fadeInUp">
+            <div class="row">
+              <div class="col-md-12">
+                <h3 class="section-title">Testimonials</h3>
+                <div class="section-title-divider"></div>
+                <p class="section-description">Erdo lide, nora porodo filece, salvam esse se, quod concedimus ses haec dicturum fuisse</p>
+              </div>
+            </div>
+      
+            <div class="row">
+              <div class="col-md-3">
+                <div class="profile">
+                  <div class="pic"><img src="img/client-1.jpg" alt=""></div>
+                  <h4>Saul Goodman</h4>
+                  <span>Lawless Inc</span>
+                </div>
+              </div>
+              <div class="col-md-9">
+                <div class="quote">
+                  <b><img src="img/quote_sign_left.png" alt=""></b> Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper. <small><img src="img/quote_sign_right.png" alt=""></small>
+                </div>
+              </div>
+            </div>
+      
+            <div class="row">
+              <div class="col-md-9">
+                <div class="quote">
+                  <b><img src="img/quote_sign_left.png" alt=""></b> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis architecto beatae. <small><img src="img/quote_sign_right.png" alt=""></small>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="profile">
+                  <div class="pic"><img src="img/client-2.jpg" alt=""></div>
+                  <h4>Sara Wilsson</h4>
+                  <span>Odeo Inc</span>
+                </div>
+              </div>
+            </div>
+      
+          </div>
+        </section>-->
+
+        <!--==========================
+        Team Section
+        ============================-->
+        <!--<section id="team">
+            <div class="container wow fadeInUp">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="section-title">Nosso Time</h3>
+                        <div class="section-title-divider"></div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="member">
+                            <div class="pic"><img src="img/team-1.jpg" alt=""></div>
+                            <h4>Felipe Medeiros</h4>
+                            <span>Chief Executive Officer</span>
+                            <div class="social">
+                                <a href=""><i class="fa fa-twitter"></i></a>
+                                <a href=""><i class="fa fa-facebook"></i></a>
+                                <a href=""><i class="fa fa-google-plus"></i></a>
+                                <a href=""><i class="fa fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="member">
+                            <div class="pic"><img src="img/team-2.jpg" alt=""></div>
+                            <h4>Gabriel Americo</h4>
+                            <span>Desenvolvedor</span>
+                            <div class="social">
+                                <a href=""><i class="fa fa-facebook"></i></a>
+                                <a href=""><i class="fa fa-google-plus"></i></a>
+                                <a href=""><i class="fa fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>-->
+
+        <!--==========================
+        Contact Section
+        ============================-->
         <section id="contact">
             <div class="container wow fadeInUp">
                 <div class="row">
@@ -241,6 +368,9 @@
             </div>
         </section>
 
+        <!--==========================
+        Footer
+      ============================-->
         <footer id="footer">
             <div class="container">
                 <div class="row">
@@ -257,6 +387,7 @@
         <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
         <!-- Required JavaScript Libraries -->
+        <!--<script src="lib/jquery/jquery.min.js"></script>-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="lib/bootstrap/js/bootstrap.min.js"></script>
         <script src="lib/superfish/hoverIntent.js"></script>

@@ -86,7 +86,7 @@ h1, h2, h3, h4, h5, h6 {
   display: table;
   width: 100%;
   height: 100vh;
-  background: url(../img/background/shutterstock_532430725.jpg) top center fixed;
+  background: url(../img/background/shutterstock_93025639.jpg) top center fixed;
   background-size: cover;
 }
 
@@ -514,7 +514,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #services .service-item {
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 
 #services .service-icon {
@@ -570,6 +570,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
   font-size: 28px;
   font-weight: 700;
+  text-align: center;
 }
 
 #subscribe .subscribe-text {
@@ -585,13 +586,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 14px;
   letter-spacing: 1px;
   display: inline-block;
-  padding: 8px 20px;
+  padding: 5px 20px;
   border-radius: 2px;
   transition: 0.5s;
-  margin: 10px;
+  //margin: 10px;
   border: 2px solid #fff;
   color: #fff;
 }
