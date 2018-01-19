@@ -186,12 +186,12 @@ jQuery(document).ready(function ($) {
         lightboxDelegate: '.cbp-lightbox',
         lightboxGallery: true,
         lightboxTitleSrc: 'data-title',
-        lightboxCounter: '<div class="cbp-popup-lightbox-counter">{{current}} of {{total}}</div>',
+        //lightboxCounter: '<div class="cbp-popup-lightbox-counter">{{current}} of {{total}}</div>',
         // singlePage popup
         singlePageDelegate: '.cbp-singlePage',
         singlePageDeeplinking: true,
         singlePageStickyNavigation: true,
-        singlePageCounter: '<div class="cbp-popup-singlePage-counter">{{current}} of {{total}}</div>',
+        //singlePageCounter: '<div class="cbp-popup-singlePage-counter">{{current}} of {{total}}</div>',
         singlePageCallback: function (url, element) {
             // to update singlePage content use the following method: this.updateSinglePage(yourContent)
             var t = this;
@@ -284,7 +284,7 @@ jQuery(document).ready(function ($) {
         var getHeight;
         var firstTop;
         var paddingTop = 0;
-        //get the starting position of each element to have parallax applied to it  
+        //get the starting position of each element to have parallax applied to it
         function update() {
 
             $this.each(function () {

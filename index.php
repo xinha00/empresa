@@ -178,12 +178,17 @@
         <section id="subscribe">
             <div class="container wow fadeInUp">
                 <div class="row">
-                    <div class="col-md-8">
+                    <div class="col-md-12">
                         <h3 class="subscribe-title">Inscreva-se para novidades</h3>
                         <!--<p class="subscribe-text">Join our 1000+ subscribers and get access to the latest tools, freebies, product announcements and much more!</p>-->
-                    </div>
-                    <div class="col-md-4 subscribe-btn-container">
-                        <a class="subscribe-btn" href="#">Inscreva-se Aqui</a>
+                        <div class="col-lg-6 col-md-offset-3">
+                            <div class="input-group">
+                                <input type="text" name="email" class="form-control" placeholder="Digite seu e-mail">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-secondary subscribe-btn" type="button">Cadastrar</button>
+                                </span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -204,9 +209,9 @@
                 </div>
 
                 <div class="col-md-12">
-                    <div id="portfolio-grid-container" class="cbp-l-grid-projects" data-caption="overlayBottomReveal" data-animation="slideLeft" data-gaphorizontal="38" data-gapvertical="50" data-logo="img/logo.png"> 
+                    <div id="portfolio-grid-container" class="cbp-l-grid-projects" data-caption="overlayBottomReveal" data-animation="slideLeft" data-gaphorizontal="38" data-gapvertical="50" data-logo="img/logo.png">
                         <!--Project 1-->
-                        <div class="cbp-item graphic identity"> 
+                        <div class="cbp-item graphic identity">
                             <a href="ajax/empresa.html" class="cbp-caption cbp-singlePage">
                                 <div class="cbp-caption-defaultWrap"> <img src="img/trabalhos/fabio-home.png" alt=""> </div>
                                 <div class="cbp-caption-activeWrap">
@@ -216,19 +221,19 @@
                                         </div>
                                     </div>
                                 </div>
-                            </a> 
+                            </a>
                         </div>
-                        <!--/ Project 1--> 
+                        <!--/ Project 1-->
                     </div>
 
                     <!--Load more-->
-                    <!-- <div class="cbp-l-loadMore-button"> 
-                         <a class="cbp-l-loadMore-button-link btn btn-dark" href="#"> <span class="cbp-l-loadMore-button-defaultText">VER MAIS</span> 
-                             <span class="cbp-l-loadMore-button-loadingText">LOADING...</span> 
-                             <span class="cbp-l-loadMore-button-noMoreLoading">NO MORE WORKS</span> 
-                         </a> 
+                    <!-- <div class="cbp-l-loadMore-button">
+                         <a class="cbp-l-loadMore-button-link btn btn-dark" href="#"> <span class="cbp-l-loadMore-button-defaultText">VER MAIS</span>
+                             <span class="cbp-l-loadMore-button-loadingText">LOADING...</span>
+                             <span class="cbp-l-loadMore-button-noMoreLoading">NO MORE WORKS</span>
+                         </a>
                      </div>-->
-                    <!--/ Load more--> 
+                    <!--/ Load more-->
                 </div>
             </div>
 
@@ -246,7 +251,7 @@
                 <p class="section-description">Erdo lide, nora porodo filece, salvam esse se, quod concedimus ses haec dicturum fuisse</p>
               </div>
             </div>
-      
+
             <div class="row">
               <div class="col-md-3">
                 <div class="profile">
@@ -261,7 +266,7 @@
                 </div>
               </div>
             </div>
-      
+
             <div class="row">
               <div class="col-md-9">
                 <div class="quote">
@@ -276,7 +281,7 @@
                 </div>
               </div>
             </div>
-      
+
           </div>
         </section>-->
 
@@ -399,7 +404,6 @@
 
         <!-- Template Specisifc Custom Javascript File -->
         <script src="js/plugin.js"></script>
-
         <script src="js/custom.js"></script>
 
     </body>
